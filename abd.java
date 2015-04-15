@@ -21,6 +21,7 @@ public class abd
 		{
 		switch (bagian[i]) 
 			{
+			case "nol": angka[i] = 0; break;
 			case "satu": angka[i] = 1; break;
 			case "dua": angka[i]= 2 ; break;
 			case "tiga": angka[i]= 3 ; break;
@@ -30,6 +31,7 @@ public class abd
 			case "tujuh": angka[i]= 7 ; break;
 			case "delapan": angka[i]= 8 ; break;
 			case "sembilan": angka[i]= 9 ; break;
+			case "sepuluh": angka[i] = 10; break;
 			default: angka[i] = 0; break;
 			}
 		}
